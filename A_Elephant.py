@@ -1,0 +1,12 @@
+eh=int(input())
+cont=0
+cont+=eh//5
+eh%=5
+cont+=eh//4
+eh%=4
+cont+=eh//3
+eh%=3
+cont+=eh//2
+eh%=2
+cont+=eh
+print(int(cont))
