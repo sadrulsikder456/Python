@@ -1,0 +1,5 @@
+a= list(range(10)  )
+# range(start, stop, step)
+b=list (range(1,10,2))
+print(a)
+print(b)
