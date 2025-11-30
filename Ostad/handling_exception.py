@@ -20,5 +20,8 @@ def check_file(filename):
         raise ValueError("Only .txt files are allowed.")
     print("File is valid.")
 check_file("Ostad/name.txt")
-    
-         
+
+try:
+     check_file("Ostad/name.pdf")
+except ValueError as ve:
+    print("Value Error:", ve)
