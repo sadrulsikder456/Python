@@ -6,4 +6,5 @@ class school:
             return 'A+'
         else:
             return 'F'
-print(school.calculate_grade(75))  
+sc=school()
+print(sc.calculate_grade(75))  
