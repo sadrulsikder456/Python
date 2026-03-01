@@ -8,4 +8,4 @@ from math_o import add
 print(add(10, 20))
 
 import utils.hello as h
-h.say()
+h.rabeya()
