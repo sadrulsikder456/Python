@@ -9,3 +9,7 @@ print(add(10, 20))
 
 import utils.hello as h
 h.rabeya()
+
+import utils as u
+u.hello.say()
+u.hello.rabeya()
