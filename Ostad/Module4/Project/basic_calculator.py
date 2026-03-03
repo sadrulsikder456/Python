@@ -46,11 +46,12 @@ def show_menu():
                         print(f"{num1} - {num2} = {substraction(num1,num2)}")
                     elif choice == 3:
                         print("{num1} * {num2} = {multiplication(num1,num2)}")
+                    elif choice == 4:
                         result = division(num1,num2)
                         if result is None:
                             print("Error: Division by Zero is  not allowed.")
                         else:
-                            print(f"{num1} / {num2} = {result})")
+                            print(f"{num1} / {num2} = {result}")
                 except ValueError:
                     print("Invalid input. Please enter numeric values.")
                     continue
