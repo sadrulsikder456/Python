@@ -1,1 +1,1 @@
-print(student.keys(), student.values())
+print(f"The most expensive item is {most_expensive_item} costing {max_price}")
